@@ -1,0 +1,6 @@
+import math
+
+y=int(input("Enter a number: "))
+print(f"Square root of {y} is: {math.sqrt(y)}")
+print(f"Logarithm of {y} is: {math.log(y)}")
+print(f"Sine of {y} is: {math.sin(y)}")
