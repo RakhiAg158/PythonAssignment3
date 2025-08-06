@@ -1,0 +1,10 @@
+def factorial(n):
+    if n==0:
+        return
+    if n==1:
+        return 1
+    if n==2:
+        return 2
+    return n*(n-1)
+y=int(input("Enter a number: "))
+print(factorial(y))
